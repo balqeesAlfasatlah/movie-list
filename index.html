@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <h1>My Movie List</h1>
+    </header>
+    <main>
+
+        <section>
+            <form id="myForm">
+                
+                <fieldset>
+                    <legend>New movie</legend>
+                <div>
+                    <label>Name</label><br>
+                    <input type="text" name="name" id="name">
+                </div>
+
+                <div>
+                    <label>Image</label><br>
+                    <select id="image">
+                        <option style="background-image:url(/images/action.png);">Action</option>
+                        <option><img src="/images/adventure.png">Adventure</option>
+                        <option><img src="/images/animation.png">Animation</option>
+                        <option><img src="/images/comedy.png">Comedy</option>
+                        <option><img src="/images/detective.png">Detective</option>
+                        <option><img src="/images/fantasy.png">Fantasy</option>
+                        <option><img src="/images/history.png">History</option>
+                        <option><img src="/images/horror.png">Horror</option>
+                        <option><img src="/images/musical.png">Musical</option>
+                        <option><img src="/images/pirate.png">Pirate</option>
+                        <option><img src="/images/romantic.png">Romantic</option>
+                        <option><img src="/images/sci-fi.png">SCI-FI</option>
+                        <option><img src="/images/war.png">War</option>
+                        <option<img src="/images/western.png">>Western</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label>Release</label><br>
+                    <input type="text" name="release" id="release">
+                </div>
+
+                <button class="savebtn" type="submit">Save</button>
+                <button  class="clearbtn" type="reset">Clear LS</button>
+            </fieldset>
+            </form>
+        </section>
+
+        <section>
+            <table id="myTable">
+
+            </table>
+        </section>
+
+    </main>
+    <footer>
+        All right reseved 2021 &copy; ASAC
+    </footer>
+    
+</body>
+
+<script src="js/app.js"></script>
+</html>

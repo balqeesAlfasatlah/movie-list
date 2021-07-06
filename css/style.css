@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+section form{
+    border: 5px dashed #ccc;
+    padding: 20px;
+    width: 500px;
+    
+}
+
+
+
+
+section form div{
+    margin-bottom: 20px;
+    
+   
+}
+
+input ,select {
+    width: 100%;
+    height: 30px;
+   
+}
+
+header{
+    background-color:#39A2DB ;
+    height: 100px;
+    text-align: center;
+    
+}
+
+header h1{
+    padding-top: 30px;
+    color: #fff;
+    font-size: 35px;
+}
+
+ form .savebtn {
+    background-color: #39A2DB;
+    border: none;
+    width: 90px;
+    padding: 10px;
+    color: #fff;
+    font-size: 15px;
+}
+
+
+ form .clearbtn {
+    background-color: red;
+    border: none;
+    width: 90px;
+    padding: 10px;
+    color: #fff;
+    font-size: 15px;
+}
+
+table {
+   
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+
+}
+
+th{
+    border: 1px solid #fff;
+    height: 50px;
+    padding: 10px;
+}
+
+tr {
+    
+    border: 1px solid #fff;
+    height: 70px;
+    padding: 10px;
+    background-color:#A2DBFA;
+}
+
+tr:nth-child(odd){
+    background-color:#77ACF1 ;
+}
+
+legend{
+    margin-bottom: 20px;
+}
+
+footer{
+    margin-top: 100px;
+    text-align: center;
+    background-color: #77ACF1;
+    height: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+}
